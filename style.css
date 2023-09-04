@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #3D087B;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 185vh;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 583px;
+    height: 800px;
+    margin-left: 80px;
+}
+
+.img{
+    margin-top: 25px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+    width: 210px;
+    margin-left: 15px;
+}
+
+.container2{
+    border-radius: 10px;
+    background-color: white;
+    width: 560px;
+    height: 330px;
+    line-height: 50px;
+    margin: 10px;
+    color: #3D087B;
+}
+
+.c2{
+    word-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 72px; 
+}
+
+.select1{
+    width: 250px;
+    height: 40px;
+    margin-left: 69px;
+    color: #3d087b;
+    border-radius: 8px;
+}
+
+select{
+    width: 250px;
+    height: 40px;
+    margin-left: 100px;
+    color: #3D087B;
+    border-radius: 8px;
+}
+
+#good{
+    font-size: 25px;
+    text-align: center;
+    width: 532px;
+    height: 61px;
+    margin: 0px;
+    margin-left: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #8A11BF;
+    padding-top: 20px;
+    color: white;
+}
+
+.con1{
+    display: flex;
+}
+
+.button{
+   margin: 10px;
+   text-align: center;
+   border: 2px solid #CB52F8 ;
+   width: 336px;
+   height: 50px;
+   border-radius: 10px;
+   background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+   font-size: 25px; 
+   color: white;
+   cursor: pointer;
+   transition: delay 2s;
+}
+
+
+.button:hover {
+    background-image: linear-gradient(to left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+}
+
+.routine{
+    margin: 14px;
+    border: 2px solid #8A11BF;
+    width: 257px;
+    height: 111px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 9px;
+    line-height: 27px;
+    color: #F25CFE;
+    background-color: #8A11BF;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 800px;
+}
+
+.box1{
+    margin-top: 50px;
+    display: flex;
+    width: 540px;
+    height: 125px;
+    background-color: white;
+    color: whitesmoke;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.time{
+    width: 80px;
+    color: #9140b5;
+    background-color: white;
+    height: 75px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hr{
+    box-sizing: border-box;
+    padding-top: 15px;
+    background-image: url(./timeline.png);
+    color: #9140b5;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 28px;
+    margin: 5px;
+}
+
+#am{
+    color: white;
+    padding-top: 26px;
+    height: 80px; 
+    background-image: linear-gradient(to top, #CB52F8, #FC5EFF);
+}
+
+.box2{
+    width: 450px;
+    height: 25px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: -33px;
+}
+
+.box3{
+    width: 405px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-top: -60px;
+}
+
+.box4{
+    position: relative;
+    background-color: white;
+    color: #8e53f0;
+    width: 529px;
+    height: 102px;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    padding-top: 30px;
+    border-radius: 10px;
+    left: 5px;
+    margin: 10px;
+    bottom: 100px;
+    top: -45px;
+}
+
+#image{
+    background-repeat: no-repeat;
+    width: 540px;
+    border-radius: 5px;
+    height: 360px;
+    position: relative;
+    top: -60px;
+}
+
+
+
+
+                            /* Reponsive for Mobile View */
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+
+    .main-container{
+        display: flex;
+        width: 13%;
+    }
+    
+    #clocklogo{
+        margin-left: 94px;
+    }
+    
+    .box1{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        width: 361px;
+        height: 100px;
+        top: 100px;
+        left: 7px;
+    }
+    
+    .box2{
+       width: 258px;
+       height: 50px;
+       position: absolute;
+       top: 262px;
+       z-index: -1; 
+       opacity: 0.3;
+       left: 40px;
+    }
+    
+    .box3{
+        width: 313px;
+        height: 27px;
+        position: absolute;
+        top: 300px;
+        opacity: 0.7;
+        left: 13px;
+    }
+    
+    .box4 {
+        display: flex;
+        position: absolute;
+        top: 277px;
+        height: 73px;
+        font-size: 25px;
+        width: 367px;
+        text-align: center;
+        justify-content: center;
+        left: -6px;
+    }
+    
+    .routine {
+        width: 182px;
+        height: 100px;
+        position: relative;
+        top: 546px;
+        left: 116px;
+    }
+    
+    .button {
+        position: relative;
+        top: 550px;
+        width: 142px;
+        height: 51px;
+        left: 128px;
+    }
+    
+    .container2 {
+        font-size: auto;
+        position: relative;
+        width: 368px;
+        top: 230px;
+        height: 500px;
+        left: 124px;
+    }
+    
+    .c2 {
+        word-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        margin: -12px;
+        align-items: center;
+        line-height: 44px;  
+        height: 110px;
+        width: 409px;
+    }
+    
+    .op1 {
+        position: absolute;
+        top: 19px;
+        left: 69px;
+        word-spacing: 1px;
+        font-size: 16px;
+    }
+    
+    .op2 {
+        position: absolute;
+        top: 121px;
+        left: 69px;
+        font-size: 16px;
+    }
+    
+    .op3 {
+        position: absolute;
+        top: 219px;
+        left: 69px;
+        font-size: 16px;
+    }
+    
+    .op4 {
+        position: absolute;
+        top: 320px;
+        left: 69px;
+        font-size: 16px;
+    }
+    
+    #image {
+        position: relative;
+        top: 2px;
+        right: -162px;
+        width: 370px;
+        height: 300px;
+    }
+    
+    #good {
+        position: relative;
+        top: 547px;
+        left: 128px;
+        height: 63px;
+        width: 334px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    
+    .select1 {
+        width: 143px;
+        left: 20px;
+    }
+    
+    .select{
+        width: 143px;
+    }
+}                     
